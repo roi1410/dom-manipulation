@@ -1,0 +1,43 @@
+{coord: {…}, weather: Array(1), base: 'stations', main: {…}, visibility: 10000, …}
+base
+: 
+"stations"
+clouds
+: 
+{all: 0}
+cod
+: 
+200
+coord
+: 
+{lon: 34.8, lat: 32.0833}
+dt
+: 
+1692788517
+id
+: 
+293396
+main
+: 
+{temp: 305.29, feels_like: 309.08, temp_min: 304.92, temp_max: 305.29, pressure: 1009, …}
+name
+: 
+"Tel Aviv"
+sys
+: 
+{type: 1, id: 6845, country: 'IL', sunrise: 1692760212, sunset: 1692807440}
+timezone
+: 
+10800
+visibility
+: 
+10000
+weather
+: 
+[{…}]
+wind
+: 
+{speed: 5.14, deg: 310}
+[[Prototype]]
+: 
+Object

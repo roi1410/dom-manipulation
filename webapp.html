@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first_page</title>
+    <link rel="stylesheet" href="webapp.css" />
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+  </head>
+  <link
+    rel="icon"
+    href="https//uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png"
+  />
+  <body>
+    <div class="toggle_shit">
+      <div class="toggle-button-cover">
+        <div class="button r" id="button-3">
+          <input type="checkbox" class="checkbox" />
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+
+      <div class="toggle-button-cover">
+        <div class="button r" id="button-3">
+          <input type="checkbox"  class="checkbox" />
+          <div id="lang" class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="all_items">
+      <h2>locetion and date</h2>
+
+      <!-- sun&claods -->
+
+      <div class="simbol"><img src="fog.png" alt="" /></div>
+      <h1 class="sky">claods</h1>
+
+      <!-- degree -->
+      <span class="main_degrees">-4°</span>
+      <!-- input -->
+      <div class="container_input">
+        <div class="search-container">
+          <input class="input" type="text" />
+          <svg viewBox="0 0 24 24" class="search__icon">
+            <g>
+              <path
+                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!-- whether ahead-->
+
+      <div class="days_conteiner">
+        <div class="wether_day">
+          <h5 class="day">F</h5>
+          <h5 class="degre_day">60°</h5>
+          <div class="scale"><div class="temp_line"><div class="wight_dote"></div></div></div>
+          <div class="day_img"><img  src="cloudy.png" alt="" /></div>
+        </div>
+        <div class="wether_day">
+          <h5 class="day">F</h5>
+          <h5 class="degre_day">60°</h5>
+          <div class="scale"></div>
+          <div class="day_img"><img  src="cloudy.png" alt="" /></div>
+        </div>
+        <div class="wether_day">
+          <h5 class="day">F</h5>
+          <h5 class="degre_day">60°</h5>
+          <div class="scale"></div>
+          <div class="day_img"><img  src="cloudy.png" alt="" /></div>
+        </div>
+        <div class="wether_day">
+          <h5 class="day">F</h5>
+          <h5 class="degre_day">60°</h5>
+          <div class="scale"></div>
+          <div class="day_img"><img  src="cloudy.png" alt="" /></div>
+        </div>
+      </div>
+      <!-- slider shit -->
+      <div class="sliderContainer">
+        <input type="range" value="0" min="0" max="7" id="slider" />
+        <span id="output"></span>
+      </div>
+      <div class="wind_moister">
+        <img src="wind.png" alt="opps" />
+
+        <img src="moister.png" alt="opps" />
+      </div>
+      <div class="wind_moister">
+        <h2 id="wind">60%</h2>
+        <h2 id="moist">80%</h2>
+      </div>
+    </div>
+
+    <script src="webapp.js"></script>
+  </body>
+</html>
